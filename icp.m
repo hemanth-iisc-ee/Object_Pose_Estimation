@@ -1,6 +1,6 @@
 function [R, T, e, t] = icp( Y, X, Iy, Ix, n_iter, worst_rejct_ratio, alpha)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Name        : icp_v3 
+% Name        : icp 
 % Description : function a modified Iterative Closest Point (ICP) algorithm
 %
 %   Input   :   Y - Target Point Cloud
