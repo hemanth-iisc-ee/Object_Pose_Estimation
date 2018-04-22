@@ -52,7 +52,7 @@ The following software are required for running the demo.
 2.	Start Matlab
 3.	Change current working to the location where the files were unzipped
 4.	Type ‘demo’ at the command prompt.
-5.	For more results download the dataset (url: https://www.dtic.ua.es/~agarcia/projects/multisensor_dataset) and unzip the files into the data folder. Then change the input data path at line-no: 9 (data_dir = './data/taz-primesense/';).
+5.	For more results download the dataset (url: https://www.dtic.ua.es/~agarcia/projects/multisensor_dataset) and unzip the files into the data folder. In file *demo.m* change the input data path at line-no: 9 (data_dir = './data/taz-primesense/';).
 
 # Refrences:
 1. A method for registration of 3-D shapes, Besl, Paul J. and McKay, Neil D., IEEE Trans. Pattern Analysis and Machine Intelligence (PAMI), February 1992.
