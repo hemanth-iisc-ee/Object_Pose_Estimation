@@ -34,7 +34,7 @@ Iterative Closest Point (ICP) is an iterative algorithm used for aligning two 3D
   
 The algorithm described above is called the Point-To-Point version of ICP. I have used an alternate version of ICP, it is known as Point-to-Plane ICP wherein the error function is modified as follows:
 
-      ![](https://latex.codecogs.com/gif.latex?error%20%3D%20%5Csum_i%20%28%28RX_i&plus;T%29%20-%20Y_i%29%5Ceta_i)
+      ![](https://latex.codecogs.com/gif.latex?error%20%3D%20%5Csum_i%5B%28%28RX_i%20&plus;%20T%29%20-%20Y_i%29%5Ceta_i%5D%5E2)
 
 Where ![](https://latex.codecogs.com/gif.latex?%5Ceta_i) represents the normal for each data point in the point cloud ![](https://latex.codecogs.com/gif.latex?X).
 
