@@ -36,7 +36,7 @@ The algorithm described above is called the Point-To-Point version of ICP. I hav
 
       ![](https://latex.codecogs.com/gif.latex?error%3D%5Csum_i%20%28%28RX_i&plus;T%29%20-%20Y_i%29%5Ceta_i)
 
-Where ![](https://latex.codecogs.com/gif.latex?%5Ceta_i) represents the normal for each data point in the point cloud ![](https://latex.codecogs.com/gif.latex?X).
+Where ![](https://latex.codecogs.com/gif.latex?%5Ceta_i) represents the normal for each data point in the point cloud ![](https://latex.codecogs.com/gif.latex?Y).
 
 k-Dimensional Tree (KDTree) data structure is used to speed up the first step (finding closest points) of the ICP algorithm. Generally, KDTree are applied on the 3D coordinates only but I have modified to consider the color component of the object. I have used a 6-dimensional KDTree, three for 3D position of a point and an additional three for the Lab representation of each pixel (Lab color space is widely considered to be resilient to illumination changes). Levenberg–Marquardt algorithm is used to minimize the error function.
 
